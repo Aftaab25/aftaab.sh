@@ -4,6 +4,11 @@
     margin: 10px;
 }
 
+ul{
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
 .blogs{
     line-height: 1.4;
     font-family: 'Space Mono', monospace;
