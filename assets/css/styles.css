@@ -675,5 +675,138 @@ img{
 }
 
 
-
 /* ===== MEDIA QUERIES=====*/
+@media screen and (min-width: 768px){
+  .home__button{
+    width: initial;
+  }
+
+  .nav__menu{
+    width: var(--nav-width);
+  }
+
+  .about__container,
+  .skills__container,
+  .services__container,
+  .works__container,
+  .contact__container,
+  .contact__inputs{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__data{
+    text-align: center;
+    padding: 1.5rem .5rem;
+    border: 2px solid var(--first-color);
+    border-radius: .5rem
+  }
+
+  .check{
+    padding: 1.5rem .5rem;
+    border: 2px solid var(--first-color);
+    border-radius: .5rem
+
+  }
+
+  .about__description{
+    margin-bottom: var(--mb-5);
+  }
+
+  .about__img{
+    width: 220px;
+  }
+
+  .about__information{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .skills__content{
+
+    padding: 1.5rem .5rem;
+    border: 2px solid var(--first-color);
+    border-radius: .5rem
+  }
+
+  .education__time{
+    padding: 0 2rem;
+  }
+
+  .project{
+    background: none;
+  }
+
+  .project__container{
+    background-color: var(--first-color);
+    grid-template-columns: 2fr 1.2fr;
+    padding: 0 2rem;
+    border-radius: .5rem;
+  }
+
+  .project__data{
+    padding: 3rem 0;
+  }
+
+  .project__title, .project__data{
+    text-align: initial;
+  }
+
+  .project__img{
+    width: 230px;
+    align-self: flex-end;
+  }
+
+  .contact__inputs{
+    display: grid;
+    column-gap: 1.5rem;
+  }
+
+  .contact__info{
+    padding-left: 3rem;
+  }
+
+  .footer{
+    background: none;
+  }
+
+  .footer__container{
+    background-color: var(--first-color-darker);
+    padding: 3rem 0;
+    border-radius: .5rem;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  body{
+    margin: 0;
+    padding-left: var(--nav-width);
+  }
+
+  .l-header{
+    width: 0;
+  }
+
+  .nav__toggle, .nav__logo, .nav__close{
+    display: none;
+  }
+
+  .nav__menu{
+    left: 0;
+  }
+
+  .home__container{
+    height: 100vh;
+  }
+
+  .section{
+    padding: 3rem 0 2rem;
+  }
+
+  .bd-grid{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+}
