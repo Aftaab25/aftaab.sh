@@ -689,7 +689,7 @@ img{
   .skills__container,
   .services__container,
   .works__container,
-  .contact__container,
+  /* .contact__container, */
   .contact__inputs{
     grid-template-columns: repeat(2, 1fr);
   }
